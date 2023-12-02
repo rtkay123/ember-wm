@@ -1,3 +1,5 @@
+mod dbg;
+
 fn main() {
-    println!("Hello, world!");
+    dbg::init_logger();
 }
